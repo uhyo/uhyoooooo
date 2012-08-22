@@ -1,0 +1,15 @@
+!!! 5
+html
+  head
+    meta(charset="UTF-8")
+    title= title
+    each filename in csss
+      link(rel="stylesheet",href="#{servedir}/#{filename}")
+    script(src="/socket.io/socket.io.js")
+  body
+    each filename in scripts
+      script(src="#{scriptsdir}/#{filename}",type="text/javascript")
+    
+    
+
+

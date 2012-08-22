@@ -1,0 +1,34 @@
+== socket connection ==
+[C->S] entry {} / user entry
+[S->C] init {
+        env:[obj,obj,obj,...]
+        user_id:UserID
+    } / env
+[C->S] initok
+
+== during game ==
+[C->S] userevent {
+        name:"eventname"
+        args:[Object,Object,...]
+    } / client-emitting event
+[S->C] userevent {
+        name:"eventname"
+        args:[Object,Object,...]
+        _id: id of user
+    } / server-emitting event
+
+[S->C] events [{name:"eventname",obj:obj},...] / pack of all kinds of events
+
+[S->C] die _id / vanish
+[S->C] event {
+        _id: id of obj
+        name:"eventname"
+        args:[Object,Object,...]
+    } / server-emitting event
+[S->C] gameevent {
+        name:"eventname"
+        args:[Object,Object,...]
+    } / server-game event
+
+== server internal events ==
+[User]disconnect
