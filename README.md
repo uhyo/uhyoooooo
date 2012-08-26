@@ -18,7 +18,7 @@ socket.io game engine module
     });
 
 ## docs
-* [Game APIs](docs/game.md)
+* [Game APIs](https://github.com/uhyo/uhyoooooo/blob/master/docs/game.md)
 
 ## thanks
 [EventEmitter](https://github.com/Wolfy87/EventEmitter)
