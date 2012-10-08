@@ -2,7 +2,7 @@
 socket.io game engine module
 
 # version
-0\.0.1
+0\.0\.2
 
 ## usage
     var uhyoooooo=require('uhyoooooo'), http=require('http');
