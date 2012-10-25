@@ -1,5 +1,12 @@
 {
   "name":"uhyoooooo",
   "main":"./lib/game.js",
-  "version":"0.0.2"
+  "version":"0.0.2",
+  "repository":{
+	  "type":"git",
+	  "url":"http://github.com/uhyo/uhyoooooo"
+  },
+  "dependencies":{
+	  "socket.io":">=0.9"
+  }
 }

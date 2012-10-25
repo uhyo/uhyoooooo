@@ -20,5 +20,5 @@ socket.io game engine module
 ## docs
 * [Game APIs](https://github.com/uhyo/uhyoooooo/blob/master/docs/game.md)
 
-## thanks
+## used module
 [EventEmitter](https://github.com/Wolfy87/EventEmitter)
