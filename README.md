@@ -2,7 +2,7 @@
 socket.io game engine module
 
 # version
-0\.0\.2
+0\.0\.3
 
 ## usage
     var uhyoooooo=require('uhyoooooo'), http=require('http');
@@ -22,3 +22,15 @@ socket.io game engine module
 
 ## used module
 [EventEmitter](https://github.com/Wolfy87/EventEmitter)
+
+## changelogs
+### 0\.0\.3
+* Game#readfile: at server(node), BOM is removed from the top of text file.
+* A bug of reconnection was fixed.
+* EventEmitter for browsers are new. Now it's merged into engine.js.
+
+### 0\.0\.2
+* Game.Timer and Game#getTimer is added.
+* Rerendering is improved. Less DOM nodes are rewrited.
+* Game#getItem, game#newItem has a new attribute. It can be applied to any object.
+
