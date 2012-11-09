@@ -24,6 +24,8 @@ socket.io game engine module
 [EventEmitter](https://github.com/Wolfy87/EventEmitter)
 
 ## changelogs
+#### 0\.0\.3-1
+* Game.ClientCanvasView#init, Game.ClientDOMView#init is expanded; can take a callback function.
 ### 0\.0\.3
 * Game#readfile: at server(node), BOM is removed from the top of text file.
 * A bug of reconnection was fixed.
