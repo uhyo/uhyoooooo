@@ -24,6 +24,9 @@ socket.io game engine module
 [EventEmitter](https://github.com/Wolfy87/EventEmitter)
 
 ## changelogs
+#### 0\.0\.3-2
+* app.init can take Array scripts.
+* Game.ClientCanvasView#init, Game.ClientDOMView#init now use DOMContentLoaded.
 #### 0\.0\.3-1
 * Game.ClientCanvasView#init, Game.ClientDOMView#init is expanded; can take a callback function.
 ### 0\.0\.3
