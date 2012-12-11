@@ -24,6 +24,8 @@ socket.io game engine module
 [EventEmitter](https://github.com/Wolfy87/EventEmitter)
 
 ## changelogs
+#### 0\.0\.3-3
+* Better rendering on Game.ClientDOMView; f5 is improved and bug fix
 #### 0\.0\.3-2
 * app.init can take Array scripts.
 * Game.ClientCanvasView#init, Game.ClientDOMView#init now use DOMContentLoaded.
