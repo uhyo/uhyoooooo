@@ -24,6 +24,9 @@ socket.io game engine module
 [EventEmitter](https://github.com/Wolfy87/EventEmitter)
 
 ## changelogs
+#### 0\.0\.3-4
+* nested-events transfer is corrected
+* user event transfer identity is corrected
 #### 0\.0\.3-3
 * Better rendering on Game.ClientDOMView; f5 is improved and bug fix
 #### 0\.0\.3-2
